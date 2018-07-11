@@ -4,6 +4,7 @@ git init　リポジトリの初期化
 git add <file>　ローカルリポジトリへのファイル保存
 git commit -m "一言コメント的なものを入れれる。日本語可"　ローカルリポジトリに保存しておく。
 git push origin master リモートリポジトリに登録
+git remote add origin <リモートリポジトリのアドレス>　
 
 
 用語集
