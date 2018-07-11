@@ -1,10 +1,18 @@
 GITHUB使い方メモ
-・重要なコマンドは以下の5つ
-git init　リポジトリの初期化
-git add <file>　ローカルリポジトリへのファイル保存
-git commit -m "一言コメント的なものを入れれる。日本語可"　ローカルリポジトリに保存しておく。
-git push origin master リモートリポジトリに登録
-git remote add origin <リモートリポジトリのアドレス>　
+1）ローカルリポジトリを作成する
+$ git init
+
+2）ローカルリポジトリにファイルの変更点を追加（インデックスに追加）
+$ git add ファイル名
+
+3）ローカルリポジトリにインデックスに追加したファイルを登録
+$ git commit -m "変更点などのコメント"
+
+4）追加したインデックス（ファイルの変更点など）をGitHubに作成
+$ git remote add origin リポジトリのURI
+
+5）ローカルリポジトリのファイルをGitHubのリポジトリに送信
+$ git push origin master
 
 
 用語集
