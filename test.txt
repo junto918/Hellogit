@@ -14,6 +14,12 @@ $ git remote add origin リポジトリのURI
 5）ローカルリポジトリのファイルをGitHubのリポジトリに送信
 $ git push origin master
 
+6) ブランチを作る　一気にバージョンを上げる時などに，失敗した時用にコピーを作っておくイメージ
+$ git branch testbranch（名前は適当に）
+$ git branch で確認可能。*が付いているものに書き込まれる。したくない時は以下のコマンドを実施。
+7) 参照＆書き換え先のブランチをtestbranchに変更。
+$ git checkout testbranch
+
 
 用語集
 
