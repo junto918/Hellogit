@@ -14,13 +14,18 @@ $ git remote add origin リポジトリのURI
 5）ローカルリポジトリのファイルをGitHubのリポジトリに送信
 $ git push origin master or <ブランチ>
 
-6) ブランチを作る　一気にバージョンを上げる時などに，失敗した時用にコピーを作っておくイメージ
-$ git branch testbranch（名前は適当に）
-$ git branch で確認可能。*が付いているものに書き込まれる。したくない時は以下のコマンドを実施。
+6）新しいブランチを作る
+$ git branch ブランチ名
 
-7) 参照＆書き換え先のブランチをtestbranchに変更。
-$ git checkout testbranch
+7）今あるブランチを確認する
+$ git branch
 
+8）ブランチを移動する
+$ git checkout ブランチ名
+
+9）ブランチを結合（マージ）する
+※$ git checkoutで，結合したいブランチに移動して…
+$ git merge 取り込むブランチ名
 
 用語集
 
